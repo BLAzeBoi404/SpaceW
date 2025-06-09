@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "IPZ_ZIEIT - Гра КосмоКорабель",
+    "icon": "assets/H2checkers_256.png",
+    "toolbar": true,
+    "width": 900,
+    "height": 800,
+    "min_width": 900,
+    "min_height": 800,
+    "max_width": 900,
+    "max_height": 800,
+    "position": "center"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

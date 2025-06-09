@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>SpaceW</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="icon" type="image/png" sizes="256x256" href="../assets/H2checkers_256.png" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Лабораторна робота для ІПЗ</h1>
+            <button id="rules-btn" class="btn rules-btn">Показати правила гри</button>
+        </header>
+
+        <div id="rules" class="rules">
+            <h2>Як грати:</h2>
+            <p>
+                Використовуй праву та ліву кнопки клавіатури для пересування платформи
+                для того, щоб відбити вгору м'яч і розбивати блоки.
+            </p>
+            <p>Якщо ви втратите м'яч ваш результат обнулиться, а блоки відновляться</p>
+            <p><strong>Особливості:</strong></p>
+            <ul>
+                <li>Кожні 10 блоків швидкість м'яча збільшується</li>
+                <li>При 25 очках з'явиться спеціальне повідомлення</li>
+                <li>Блоки мають нову круглу форму</li>
+            </ul>
+            <button id="close-btn" class="btn close-btn">Закрити</button>
+        </div>
+
+        <section class="stats">
+            <div id="score-display" class="display">Score: 0</div>
+            <div id="speed-display" class="display">Speed: 4</div>
+        </section>
+
+        <canvas id="canvas" width="1920" height="1080"></canvas>
+
+        <footer>
+            <p>Керування: ← → стрілки клавіатури. Пробіл - пауза</p>
+        </footer>
+    </div>
+
+    <script src="../app/index.js"></script>
+</body>
+</html>
